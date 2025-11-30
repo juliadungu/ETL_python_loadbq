@@ -54,3 +54,9 @@ Install dependencies (for example, using `pip`):
 
 ```bash
 pip install pandas google-cloud-bigquery requests
+
+python main.py \
+  --url http://data.gdeltproject.org/events/20251130000000.export.CSV.zip \
+  --dataset gdelt_raw \
+  --table gdelt_events_clean
+
